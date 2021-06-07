@@ -1,0 +1,7 @@
+### Windows Users
+1. Download and install the [appropriate version](https://www.anaconda.com/products/individual) of Anaconda
+2. Go to Start and Run Anaconda.
+3. Clone the repository and Go to your Directory Eg C:\cowin
+4. Install all the dependencies - `! pip3 install -r requirements.txt`
+5. Click `New Notebook`, which should open a new page.
+6. Run `streamlit run app.py`

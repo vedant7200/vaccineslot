@@ -26,7 +26,7 @@ def layout(*args):
         bottom=0,
         margin=px(0, 0, 0, 0),
         width=percent(100),
-        color="black", 
+        color="white",
         text_align="center",
         height="auto",
         opacity=1
@@ -56,8 +56,7 @@ def footer(inp_views):
     myargs = [
         "Page Visits - ", str(inp_views),
         br(),
-        "Created by ",
-        link("", "Manoj"),
+        "Powered by AKCDS",
         "     ",
         
     ]
